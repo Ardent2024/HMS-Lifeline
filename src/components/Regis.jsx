@@ -1,9 +1,9 @@
 import React, { useState } from "react"; 
 import { Link, useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-
 import axios from 'axios';
 import Modal from './Modal'; // Update import path if necessary
+
 const img1 = 'image/lg1.png';
 
 function Regis() {
@@ -30,7 +30,8 @@ function Regis() {
         }
 
         try {
-            await axios.post('http://localhost:5001/api/auth/register', { phone, email, password, confpass });
+            // Change this URL to point to your deployed backend on Render
+            await axios.post('https://login-registration-o11e.onrender.com/api/auth/register', { phone, email, password, confpass });
             setSuccessMessage("Registration successful!");
             setMessageType("success");
             setShowModal(true);
@@ -47,14 +48,10 @@ function Regis() {
 
     // Redirect to login page
     const handleRedirect = () => {
-        navigate('/Logins'); // Change '/' to the path of your login page if different
+        navigate('/Logins'); // Change this to the path of your login page if different
     };
 
     return (
-      <>
-      
-
-
         <div>
             {shouldHideContent ? null : (
                 <div>
@@ -132,7 +129,6 @@ function Regis() {
                 </div>
             )}
         </div>
-        </>
     );
 }
 
