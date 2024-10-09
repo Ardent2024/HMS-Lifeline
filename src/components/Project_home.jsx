@@ -28,7 +28,7 @@ const Project_home = () => {
                                             <div className="collapse navbar-collapse" id="navbarNavDropdown">
                                                 <ul className="navbar-nav">
                                                     <li className="nav-item">
-                                                        <a className="nav-link active mt-3 ho" aria-current="page" href="#">Home</a>
+                                                        <Link className="nav-link active mt-3 ho" aria-current="page" to="#">Home</Link>
                                                     </li>
                                                     <li className="nav-item">
                                                         <Link to="/Doctor" className="nav-link active mt-3 ho">Doctor with us</Link>
