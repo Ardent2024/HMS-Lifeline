@@ -1,0 +1,133 @@
+.contact_main {
+    padding: 80px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .contact {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact_info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .contact_item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 257px;
+    padding: 49px;
+    margin-top: 34px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .contact_icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  .contact_details h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .connect_section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  .connect_section h2 {
+    font-weight: bold;
+  }
+  .connect_section .divp {
+    width: 700px;
+    margin-top: 26px;
+    margin-left: 327px;
+  }
+  
+  .map {
+    margin: 23px 0;
+    font-weight: bold;
+    font-size: 22px;
+    height: 60px;
+    width: 627px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+  
+  .map_frame {
+    text-align: center;
+    margin: 20px 0;
+    width: 648px;
+  }
+  .sum{
+    max-height: 500px;
+  }
+  .if{
+    height: 500px;
+  }
+  .form_section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 646px;
+    margin: 0 auto;
+    position: relative;
+    /* float: right; */
+    bottom: 615px;
+    left: 350px;
+}
+  
+  .form_section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .submit_button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit_button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
+  .success {
+    color: green;
+    text-align: center;
+  }
+  

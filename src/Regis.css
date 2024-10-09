@@ -1,0 +1,273 @@
+* {
+    font-family: "PT Serif", serif;
+}
+
+.reg-form {
+    margin-top: 80px;
+    margin-left: 57px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 10px rgba(34, 34, 34, 0.6));
+}
+
+.rf {
+    float: right;
+    height: 634px;
+    width: 400px;
+    margin-top: 51px;
+    margin-right: 321px;
+    background-color: rgba(22, 21, 21, 0.8);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    border: 1px solid rgba(151, 147, 147, 0.5);
+    box-shadow: 10px 10px 10px rgba(54, 53, 53, 0.3);
+}
+
+.rf h3 {
+    font-size: 2.5rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+    margin-top: 34px;
+}
+
+.rf p.mon {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-right: 135px;
+}
+
+.rf div.mondiv1 {
+    width: 267px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 25px;
+}
+
+.rf div.mondiv {
+    position: absolute;
+    padding: 7px;
+}
+
+.rf input.monin {
+    float: right;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 32px;
+}
+
+.rf p.ml {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 19px;
+    margin-right: 224px;
+}
+
+.rf div.mldiv1 {
+    width: 267px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 25px;
+}
+
+.rf div.mldiv {
+    position: absolute;
+    padding: 7px;
+
+}
+
+.rf input.mlin {
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.rf p.cpw {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 19px;
+    margin-right: 126px;
+}
+
+.rf div.cpwdiv1 {
+    width: 267px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 25px;
+}
+
+.rf div.cpwdiv {
+    position: absolute;
+    padding: 7px;
+}
+
+.rf input.cpwin {
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.rf p.copw {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 19px;
+    margin-right: 126px;
+}
+
+.rf div.copwdiv1 {
+    width: 267px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 25px;
+}
+
+.rf div.copwdiv {
+    position: absolute;
+    padding: 7px;
+}
+
+.rf input.copwin {
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.rf .btn {
+    background-color: rgba(22, 21, 21, 0.005);
+    outline: none;
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(255, 255, 255, 0.5);
+    margin-top: 31px;
+    padding: 5px;
+    border: 1px solid ;
+    /* position: relative;
+    bottom: -36px; */
+}
+
+.rf .btn:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.rf button .btn-r {
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+}
+
+.rf button .btn-r:hover {
+    color: white;
+}
+
+
+
+/* For Responsive */
+@media only screen and (max-width: 1262px) {
+    .rf {
+        margin-right: 100px;
+    }
+
+}
+
+@media only screen and (max-width: 997px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rf {
+        margin: 0px 0px;
+        margin-top: 56px;
+    }
+
+    .reg-form {
+        z-index: -1;
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .reg-form img {
+        width: 400px;
+        height: 470px;
+    }
+}
+
+@media only screen and (max-width:462px) {
+    .reg-form {
+        position: relative;
+        margin: 0px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .reg-form img {
+        margin: 0px;
+        height: 180px;
+        width: 50%;
+    }
+
+    .ref {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rf {
+        float: left;
+        margin-top: 0px;
+        width: 350px;
+    }
+
+    .rf h3 {
+        font-size: 29px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height:1366px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rf {
+        margin: 0px 0px;
+        margin-top: 56px;
+    }
+
+    .reg-form {
+        z-index: -1;
+        margin-left: 0px;
+        width: 400px;
+    }
+
+    .reg-form img {
+        width: 400px;
+        height: 470px;
+    }
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}

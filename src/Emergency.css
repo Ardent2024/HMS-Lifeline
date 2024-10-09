@@ -1,0 +1,59 @@
+.emergencySection {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .emergencySection h1 {
+    color: #d32f2f;
+    border-bottom: 2px solid #d32f2f;
+    padding-bottom: 10px;
+  }
+  
+  .emergencySection h2 {
+    color: #1565c0;
+    margin-top: 30px;
+  }
+  
+  .contactInfo {
+    background-color: #f5f5f5;
+    border-left: 5px solid #d32f2f;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  
+  .contactInfo p {
+    margin: 5px 0;
+  }
+  
+  .services ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .services li {
+    background-color: #e3f2fd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .whatToExpect ol {
+    padding-left: 20px;
+  }
+  
+  .whatToExpect li {
+    margin-bottom: 10px;
+  }
+  
+  .emergencyWarning {
+    background-color: #ffcdd2;
+    border: 2px solid #d32f2f;
+    color: #b71c1c;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+  }

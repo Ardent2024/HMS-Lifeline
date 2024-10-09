@@ -1,0 +1,88 @@
+/* Reset margin and padding for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Ensure .bd covers the entire viewport without scrollbars */
+ 
+  
+  /* Adjust .div-h2 for better positioning */
+  .div-h2 {
+    width: 64%;
+    /* margin-top: 20px; */
+    position: relative;
+  }
+  
+  /* Center text with a large font */
+  .div-h2 .hd {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: 55px;
+    left: 576px;
+    width: 423px;
+  }
+  
+  .Login-Box {
+    width: 100%;
+  }
+  
+  /* Ensure the login form is properly sized and centered */
+  .login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 24%;
+    height: auto; /* Dynamic height */
+    min-height: 394px; /* Minimum height for content */
+    margin-top: 122px;
+    margin-left: 608px;
+    border-radius: 10px;
+    background-color:rgba(0, 0, 0, 0.7) ;
+    box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.4);
+  }
+  
+  form .ml , form .ps {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  form .mail, form .pass {
+    border-radius: 7px;
+    outline: none;
+    border: 0px solid rgb(197, 197, 197);
+    border-bottom: 1px solid white;
+    padding: 4px;
+    width: 254px;
+    background-color: transparent;
+    color: white;
+  }
+  
+  form .sub-bt {
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: 0px solid black;
+    padding: 6px;
+    width: 171px;
+    background-color: #007bff;
+    margin-left: 39px;
+  }
+  form .sub-bt:hover{
+    font-size: 16px;
+    box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.4);
+  
+  }
+  form .rdr-rg p{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 22px;
+    color: white;
+  }

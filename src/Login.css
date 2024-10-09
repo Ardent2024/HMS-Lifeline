@@ -1,0 +1,234 @@
+* {
+    font-family: "PT Serif", serif;
+}
+.or-form {
+    margin-top: 80px;
+    margin-left: 57px;
+    position: absolute;
+    filter: drop-shadow(10px 10px 10px rgba(34, 34, 34, 0.6));
+}
+
+.lf {
+    float: right;
+    height: 500px;
+    width: 400px;
+    margin-top: 80px;
+    margin-right: 321px;
+    background-color: rgba(22, 21, 21, 0.8);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    border: 1px solid rgba(151, 147, 147, 0.5);
+    box-shadow: 10px 10px 10px rgba(54, 53, 53, 0.3);
+}
+
+.lf h3{
+    font-size: 2.5rem;
+    border-bottom: 4px solid rgba(255, 255, 255, 0.5);
+    margin-bottom: 0px;
+    margin-top: 34px;
+}
+
+.lf p.mn {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 65px;
+    margin-right: 135px;
+}
+
+.lf div.mndiv1 {
+    width: 237px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 45px;
+}
+
+.lf .mndiv1 div.mndiv {
+    position: absolute;
+    padding: 7px;
+}
+
+.lf input.mnin {
+    float: right;
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.lf p.pw {
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 19px;
+    margin-right: 188px;
+}
+
+.lf div.pwdiv1 {
+    width: 237px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 45px;
+}
+
+.lf .pwdiv1 div.pwdiv {
+    position: absolute;
+    padding: 7px;
+}
+
+.lf input.pwin {
+    padding: 7px;
+    border: none;
+    outline: none;
+    background-color: rgba(22, 21, 21, 0.005);
+    color: white;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 92px;
+}
+
+.lf p.reg {
+    margin-bottom: 0px;
+    margin-top: 19px;
+    font-size: 16px;
+    margin-right: 43px;
+}
+
+.lf p .lrg {
+    text-decoration: underline;
+    color: rgb(163, 159, 159);
+}
+
+.lf p .lrg:hover {
+    color: white;
+}
+
+.lf p.tac {
+    margin: 0px;
+    margin-top: 23px;
+    margin-left: -45px;
+}
+
+.lf p .tnc {
+    text-decoration: underline;
+    color: rgb(163, 159, 159);
+}
+
+.lf p .tnc:hover {
+    color: white;
+}
+
+.lf .btn {
+    background-color: rgba(22, 21, 21, 0.005);
+    outline: none;
+    box-shadow: 0.5px 0.5px 2px 0.5px rgba(255, 255, 255, 0.5);
+    margin-top: 31px;
+    padding: 5px;
+}
+
+.lf .btn:hover {
+    cursor: pointer;
+}
+
+.lf button .btn-l {
+    text-decoration: none;
+    color: rgb(163, 159, 159);
+}
+
+.lf button .btn-l:hover {
+    color: white;
+}
+
+/* For Responsive */
+@media only screen and (max-width: 1262px) {
+    .lf {
+        margin-right: 100px;
+    }
+
+}
+@media only screen and (max-width: 997px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lf{
+        margin: 0px 0px;
+        margin-top: 56px;
+    }
+    .or-form{
+        z-index: -1;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .or-form img{
+        width: 400px;
+        height: 470px;
+    }
+}
+@media only screen and (max-width:462px){
+    .or-form{
+        
+        margin: 0px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .or-form img{
+        margin-right: 63px;
+        
+    }
+    .lof{
+        display: flex;
+        justify-content: center;
+    }
+    .lf{
+        float: left;
+        width: 350px;
+    }
+    .lf h3{
+        font-size: 29px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media only screen and (max-width: 1024px) and (max-height:1366px){
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lf{
+        margin: 0px 0px;
+        margin-top: 100px;
+    }
+    .or-form{
+        z-index: -1;
+        margin-left: 0px;
+        width: 400px;
+    }
+    .or-form img{
+        width: 400px;
+        height: 470px;
+    }
+}
+@media only screen and (max-width : 399px){
+    .lf{
+        margin-left: 30px;
+    }
+    .or-form{
+        margin-left: 44px;
+    }
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
+}

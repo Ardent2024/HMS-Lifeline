@@ -1,0 +1,528 @@
+*{
+margin: 0px;
+padding: 0px;
+border: 0px;
+
+}
+.firstDrop,.iconLocation{
+    background-color: darkblue;
+  
+}
+.btn{
+    background-color: blue;
+}
+.icon{
+    color: black;
+    margin-left: 10px;
+}
+.icon1{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.logo2{
+    width: 100%;
+    height: 70%;
+    box-shadow: 0px 5px 10px gray;
+    display: flex;
+   
+}
+.icon2{
+    height: 100px;
+    width: 150px;
+ 
+    background-image: url(hospital.jpg);
+    background-size: cover;
+}
+ /*.life{
+    color: blue;
+   
+    font-size: 5rem;
+    font-style: italic;
+ 
+} */
+.nav{
+    float: right;
+}
+
+.point{
+    border-radius: 50%;
+    background-color: white;
+    height: 150px;
+    width: 150px;
+    background-image: url(d_app.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    
+    
+}
+.nav-item a{
+    color: black;
+}
+
+.hii{
+    background-color: white;
+}
+.seact{
+    color: black;
+    margin-left:200px ;
+   
+}
+.book{
+    color:white;
+    background-color: red;
+    font-size: 1rem;
+   margin-top: 25px;
+    margin-left: 80px;
+    height: 50px;
+    width: 150px;
+    border-radius: 2rem;
+}
+.seach{
+    height: 50px;
+    
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.pointo{
+    display:flex ;
+    justify-content: space-evenly;
+}
+.point1{
+    display: flex;
+    
+}
+.para1{
+    margin-left: 120px;
+
+    margin-right: 100px;
+}
+.para2{
+    margin-right: 100px;
+}
+.para3{
+    margin-right: 120px;
+    margin-left: 30px;
+}
+.para4{
+    margin-left: 50px;
+}
+.first{
+    height: 500px;
+    width: 1586px;
+    background-image: url(c.jpg);
+    background-size: cover;
+}
+.secound{
+    height: 500px;
+    width: 1586px;
+    background-image: url(cancer2.jpg);
+    background-size: cover;
+}
+.thied{
+    height: 500px;
+    width: 1586px;
+    background-image: url(neuro.jpg);
+    background-size: cover;
+}
+.forth{
+    height: 500px;
+    width: 1586px;
+    background-image: url(Gastro1.jpg);
+    background-size: cover;
+}
+.five{
+    height: 500px;
+    width: 1586px;
+    background-image: url(Orthopaedic.jpg);
+    background-size: cover;
+}
+.home{
+    font-size: 1rem;
+   float: inline-end;
+   display: inline;
+}
+.f1{
+    margin-left: 70px;
+   
+}
+.g{
+    background-color: white;
+}
+.o{
+    margin-right:10px ;
+    margin-top: 10px;
+    
+    font-size: 1.1rem;
+    background-color: white;
+}
+.o:hover{
+    border: 2px solid blue;
+                                                   
+}
+.h{
+    margin-left: 50px;
+    background-color: white;
+}
+.h:hover{
+    border: 2px solid blue;
+}
+.bg_image{
+   
+    width: 100%;
+    height: 700px;
+   background-image: url(bgimage.jpg);
+   background-size: cover;
+  
+}
+.l{
+    /* margin-top: 550px; */
+    height: 300px;
+    width: 600px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+}
+.k{
+   height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
+}
+.k:hover{
+    background-color: black;
+    box-shadow:  5px 5px 5px 5px blue ;
+}
+.w{
+    float: right;
+    margin-top: 50px;
+    height: 300px;
+    width: 600px;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid white;
+}
+.pon{
+    margin-left: 50px;
+}
+
+.media{
+    margin-top:20px ;
+    margin-left: 20px;
+  
+    font-size: 8rem;
+    margin-bottom: 10px;
+    
+}
+.m1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.event0{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    background-image: url(events.jpg);
+    background-size: cover;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 5px  gray;
+    transition: 1s;
+}
+
+.event1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px  gray;
+    transition: 1s;
+    background-image: url(Blood1.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+.event2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px 5px  gray;
+    transition: 1s;
+    background-image: url(can.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+.event3{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    box-shadow: 5px 5px 5px 5px  gray;
+    transition: 1s;
+    background-image: url(care.jpg);
+    background-size: cover;
+    border-radius: 5%;
+}
+.dec1{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+
+.f0{
+margin-top: 30px;
+ color: blue;
+ border: white;
+ width: 200px;
+
+box-shadow: 5px 5px 5px 5px  gray;
+}
+.f2{
+    margin-top: 25px;
+ color: blue;
+ border: white;
+ width: 250px;
+margin-left: 15px;
+box-shadow: 5px 5px 5px 5px  gray;
+}
+.f3{
+    margin-top: 25px;
+    color: blue;
+    border: white;
+    width: 250px;
+   margin-left: 7px;
+   box-shadow: 5px 5px 5px 5px  gray;
+}
+.f4{
+    margin-top: 25px;
+    color: blue;
+    border: white;
+    width: 250px;
+   margin-left: 7px;
+   box-shadow: 5px 5px 5px 5px  gray;
+}
+.patient{
+    height: 500px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   background-image: url(hospital.jpg);
+   box-shadow: 0px 5px 10px gray;
+}
+.pa1{
+    
+    margin-left: 500px;
+    
+}
+.pa2{
+    height: 150px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    border: 5px solid blue;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+}
+
+.cp{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c0{
+    height: 170px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    border: 5px solid blue;
+    color: white;
+}
+.p0{
+    font-size: 1.2rem;
+}
+.c1{
+    height: 200px;
+    width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    border: 5px solid blue;
+}
+.c2{
+   
+        height: 200px;
+        width: 400px;
+        background-color: rgba(0,0,0,0.7);
+        border: 5px solid blue;
+  
+}
+.last{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(0, 0, 117, 1);
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 10px gray;
+    margin-bottom: 30px;
+}
+.num{
+   width: 200px;
+    color: white;
+    padding: 6px;
+   
+}
+.num1{
+    width: 200px;
+    padding: 6px;
+    color: white;
+   
+}
+.num2{
+   
+    color: white;
+    width: 200px;
+    padding: 6px;
+}
+.n1{
+    color: aqua;
+}
+.follow{
+  
+    float: left;
+    color: blue;
+    font-size: 5rem;
+}
+.bb{
+    font-weight: bold;
+    font-size: 20px;
+}
+.sumit{
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+   
+    box-shadow: 0px 5px 10px gray;
+    margin-bottom: 30px;
+}
+.fac{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    background-image: url(fac.png);
+    background-size: cover;
+}
+.tui{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    background-image: url(tw.png);
+    background-size: cover;
+}
+.in{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    background-image: url(li.png);
+    background-size: cover;
+}
+
+.insta{
+    width: 50px;
+    height: 50px;
+    margin-top: 40px;
+    margin-right: 30px;
+    background-image: url(instra.png);
+    background-size: cover;
+}
+.last1{
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+   display: flex;
+   box-shadow: 0px 5px 10px gray;
+   margin-bottom: 30px;
+}
+.logo3{
+    height: 350px;
+    width: 450px;
+    background-image: url(hospital.jpg);
+    background-size: cover;
+    margin-right: 0px;
+}
+.su1{
+    font-size: 1rem;
+    margin-left: 50px;
+}
+.su{
+    margin-left: 0px;
+    color: blue;
+    font-size: 4rem;
+    height: 100px;
+}
+.pp1{
+    margin-right: 100px;
+    font-size: 0.5;
+}
+.right{
+    margin-left: 150px;
+    margin-top: 50px;
+   
+}
+.life1{
+    font-size: 5rem;
+    margin-right: 50px;
+    color: blue;
+}
+.ho:hover{
+    border: 2px solid blue;
+}
+.sahil{
+    margin-left: 30px;
+}
+.ok{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 316px;
+
+
+}
+.carousel {
+    margin: 20px 0;
+}
+
+.carousel-item img {
+    max-height: 500px; /* Set a maximum height for images */
+    object-fit: cover; /* Cover the area without distortion */
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around text */
+    margin-right: 235px;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #007bff; /* Change the color of the indicators */
+}
+
+.carousel-indicators .active {
+    background-color: #0056b3; /* Change the active indicator color */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Change the control button color */
+}
+
