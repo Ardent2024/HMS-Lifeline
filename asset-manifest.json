@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HMS-Lifeline/static/css/main.069affee.css",
-    "main.js": "/HMS-Lifeline/static/js/main.1b5a2a3e.js",
+    "main.js": "/HMS-Lifeline/static/js/main.4c6e3e02.js",
     "static/js/453.f97867d1.chunk.js": "/HMS-Lifeline/static/js/453.f97867d1.chunk.js",
     "static/media/bgimage.jpg": "/HMS-Lifeline/static/media/bgimage.5979982dd6ba82086609.jpg",
     "static/media/d_app.jpg": "/HMS-Lifeline/static/media/d_app.6fe5d3137f90cce834f8.jpg",
@@ -34,11 +34,11 @@
     "static/media/12th.jpg": "/HMS-Lifeline/static/media/12th.c04e662b6f1253f305c3.jpg",
     "index.html": "/HMS-Lifeline/index.html",
     "main.069affee.css.map": "/HMS-Lifeline/static/css/main.069affee.css.map",
-    "main.1b5a2a3e.js.map": "/HMS-Lifeline/static/js/main.1b5a2a3e.js.map",
+    "main.4c6e3e02.js.map": "/HMS-Lifeline/static/js/main.4c6e3e02.js.map",
     "453.f97867d1.chunk.js.map": "/HMS-Lifeline/static/js/453.f97867d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.069affee.css",
-    "static/js/main.1b5a2a3e.js"
+    "static/js/main.4c6e3e02.js"
   ]
 }
