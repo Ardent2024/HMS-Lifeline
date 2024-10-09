@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import Project_home from './components/Project_home.jsx';
 import './Project_home.css';
@@ -44,7 +44,7 @@ import './Adminregister.css';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path='/' element={<Project_home />}></Route>
           <Route exact path='/Emergency' element={<Emergency />}></Route>
@@ -60,7 +60,7 @@ function App() {
           <Route exact path='/Adminlogin' element={<Adminlogin />}></Route>
           <Route exact path='/Adminregister' element={<Adminregister />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
