@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
-// import "../CSS/Adminregister.css";
 import Modal from "./Modal"; // Importing the modal for error/success messages
 
 function Adminregister() {
@@ -30,7 +29,7 @@ function Adminregister() {
         }
 
         try {
-            const response = await fetch("http://localhost:5004/api/admin/register", {
+            const response = await fetch("https://admin-login-registration.onrender.com/api/admin/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
