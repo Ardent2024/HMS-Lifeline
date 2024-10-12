@@ -29,7 +29,7 @@ const Bookapp = () => {
 
     // Send data to the backend to save appointment and send confirmation email
     try {
-      await axios.post('http://localhost:5002/send-confirmation', formData);
+      await axios.post('https://book-appointment-yckn.onrender.com/send-confirmation', formData);
       setEmailSent(true);
       setError(''); // Clear any previous errors
     } catch (error) {
@@ -58,52 +58,51 @@ const Bookapp = () => {
 
   return (
     <>
-   <header className="logo2 life">
-                  <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top hii">
-                    <div className="container-fluid ">
-                      <div className="icon2"></div>
-                      <div className="life1">
-                        <i className="sahil">LifeLine</i>
-                      </div>
-                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                      </button>
-                      <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                          <li className="nav-item">
-                            <Link to="/" className="nav-link active mt-3 ho" aria-current="page" >Home</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/Doctor" className="nav-link active mt-3 ho">Doctor with us</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/Health" className="nav-link active mt-3 ho">Health package</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/Emergency" className="nav-link active mt-3 ho">Emergency</Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/Online_r" className="nav-link active mt-3 ho" >Online report</Link>
-                          </li>
-                          <li className="nav-item dropdown">
-                            <a className="nav-link dropdown-toggle active mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              More
-                            </a>
-                            <ul className="dropdown-menu">
-                              <li><Link to="/Feedback" className="dropdown-item">Feedback</Link></li>
-                              <li><Link to="/Cont" className="dropdown-item">Contact Us</Link></li>
-                              <li><Link to="/Adminlogin" className="dropdown-item">Admin</Link></li>
-                            </ul>
-                          </li>
-                          <li className="nav-item">
-                            <Link to="/Logins"><button className="book">Book Appointment</button></Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-                </header>
-
+      <header className="logo2 life">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top hii">
+          <div className="container-fluid ">
+            <div className="icon2"></div>
+            <div className="life1">
+              <i className="sahil">LifeLine</i>
+            </div>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul className="navbar-nav">
+                <li className="nav-item">
+                  <Link to="/" className="nav-link active mt-3 ho" aria-current="page">Home</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Doctor" className="nav-link active mt-3 ho">Doctor with us</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Health" className="nav-link active mt-3 ho">Health package</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Emergency" className="nav-link active mt-3 ho">Emergency</Link>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Online_r" className="nav-link active mt-3 ho">Online report</Link>
+                </li>
+                <li className="nav-item dropdown">
+                  <a className="nav-link dropdown-toggle active mt-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul className="dropdown-menu">
+                    <li><Link to="/Feedback" className="dropdown-item">Feedback</Link></li>
+                    <li><Link to="/Cont" className="dropdown-item">Contact Us</Link></li>
+                    <li><Link to="/Adminlogin" className="dropdown-item">Admin</Link></li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <Link to="/Logins"><button className="book">Book Appointment</button></Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
       <div className="bg">
         <nav className="navbar">
@@ -183,7 +182,7 @@ const Bookapp = () => {
                 <option value="Dr. Williams">Dr. Williams</option>
               </select>
             </label>
-            <button  className="but" type="submit">Book Appointment</button>
+            <button className="but" type="submit">Book Appointment</button>
           </form>
 
           {/* Display Thank You message or error message when the form is submitted */}
